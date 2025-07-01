@@ -119,7 +119,7 @@
         <h3>Backup</h3>
         <p>Faz uma cópia da carteira na pasta <tt>backups</tt> dentro de <tt>monerujo</tt>
         sobrescrevendo as cópias anteriores.</p>
-        <h3>arquivar</h3>
+        <h3>Arquivar</h3>
         <p>Faz um backup da carteira e a deleta logo em seguida. A cópia permanece na pasta <tt>backups</tt>.
         Se você não precisa mais do seu backup recomendamos que você delete o arquivo usando um aplicativo
         gerenciador de arquivos.</p>
