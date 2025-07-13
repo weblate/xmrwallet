@@ -30,5 +30,6 @@
         podaj przybliżoną datę/wysokość bloku <em>przed</em> twoim pierwszym użyciem tego adresu portfela.</p>
     ]]></string>
     <string name="help_ok">Rozumiem!</string>
-    <string name="help_nok">Nie…</string>
+    <string name="help_nok">Nie, dzięki…</string>
+    <string name="help_getorbot">Pobierz Orbot!</string>
 </resources>
