@@ -16,6 +16,19 @@
       <p>Nie ma sposobu na odzyskanie Mnemonic Seed - jeśli go zgubisz, stracisz wszystkie środki!
       Mnemonic Seed nie może zostać zmieniony. Jeśli zostanie skradziony lub w inny sposób ujawniony,
       musisz przenieść środki do nowego portfela (z nowym Mnemonic Seedem). Dlatego najlepiej
-      zapisz Mnemonic Seed i przechowuj go w <em>kilku</em> bezpiecznych miejscach.</p>
+      zapisz Mnemonic Seed i przechowuj go w <em>kilku</em> 
+      bezpiecznych miejscach.</p>
 ]]></string>
+    <string name="help_create_seed"><![CDATA[
+        <h1>Tworzenie portfela - seed</h1>
+        <p>Jeśli masz już adres Monero i chcesz odzyskać transakcje z blockchaina!</p>
+        <p>Wprowadź unikalną nazwę i hasło. Hasło służy do zabezpieczenia danych portfela na urządzeniu.
+        Użyj silnego hasła - a najlepiej hasła złożonego z kilku słów.</p>
+        <p>Wprowadź swój seed w polu \"Mnemonic Seed\".<p>
+        <p>Wprowadź numer bloku pierwsze transakcji użytej dla tego adresu w
+        polu \"Wysokość przywracania\". Możesz też użyć daty w formacie RRRR-MM-DD. Jeśli nie jesteś pewien,
+        podaj przybliżoną datę/wysokość bloku <em>przed</em> twoim pierwszym użyciem tego adresu portfela.</p>
+    ]]></string>
+    <string name="help_ok">Rozumiem!</string>
+    <string name="help_nok">Nie…</string>
 </resources>
