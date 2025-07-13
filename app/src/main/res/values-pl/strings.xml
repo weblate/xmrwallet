@@ -15,5 +15,18 @@
     <string name="menu_cancel">Anuluj</string>
     <string name="password_weak">Kontynuuj pisanie …</string>
     <string name="password_fair">Takie sobie …</string>
-    <string name="password_good">Dalej, możesz lepiej!</string>
+    <string name="password_good">No dalej, dasz radę lepiej!</string>
+    <string name="password_strong">Jesteś blisko …</string>
+    <string name="password_very_strong">No i elegancko, styl h4ck3ra!</string>
+    <string name="label_login_wallets">Portfele</string>
+    <string name="label_credits">Twórcy</string>
+    <string name="label_ok">OK</string>
+    <string name="label_cancel">Anuluj</string>
+    <string name="label_close">Zamknij</string>
+    <string name="label_wallet_advanced_details">Szczegółowe informacje</string>
+    <string name="label_send_success">Wysłano pomyślnie</string>
+    <string name="label_send_done">Gotowe</string>
+    <string name="label_receive_info_gen_qr_code">Stuknij, aby wyświetlić kod QR</string>
+    <string name="info_xmrto_enabled">Możesz wymienić XMR na inne monety, stuknij aby przeczytać więcej.</string>
+    <string name="info_ledger_enabled">Ledger włączony, stuknij po więcej informacji</string>
 </resources>
