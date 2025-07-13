@@ -1,3 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="wallet_activity_name">Portfel</string>
+    <string name="menu_about">Informacje</string>
+    <string name="menu_privacy">Polityka prywatności</string>
+    <string name="menu_share">Udostępnij</string>
+    <string name="menu_help">Pomoc</string>
+    <string name="menu_receive">Odbierz</string>
+    <string name="menu_rename">Zmień nazwę</string>
+    <string name="menu_delete">Usuń</string>
+    <string name="menu_backup">Kopia zapasowa</string>
+    <string name="menu_changepw">Zmień hasło</string>
+    <string name="menu_back">Powrót</string>
+    <string name="menu_close">Zamknij</string>
+    <string name="menu_cancel">Anuluj</string>
+    <string name="password_weak">Kontynuuj pisanie …</string>
+    <string name="password_fair">Takie sobie …</string>
+    <string name="password_good">Dalej, możesz lepiej!</string>
 </resources>
