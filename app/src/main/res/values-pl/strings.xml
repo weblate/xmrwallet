@@ -64,6 +64,18 @@
     <string name="changepw_progress">Trwa zmiana hasła</string>
     <string name="service_progress">Kończymy …\nTo może chwilę potrwać!</string>
     <string name="backup_success">Kopia zapasowa wykonana pomyślnie</string>
-    <string name="backup_failed">Kopia zapasowa zakończyła się niepowodzeniem!</string>
-    <string name="delete_failed">Usuwanie się nie powiodło!</string>
+    <string name="backup_failed">Kopia zapasowa nie powiodła się!</string>
+    <string name="delete_failed">Usuwanie nie powiodło się!</string>
+    <string name="rename_failed">Zmiana nazwy nie powiodła się!</string>
+    <string name="changepw_failed">Zmiana hasła nie powiodła się!</string>
+    <string name="changepw_success">Hasło zostało zmienione</string>
+    <string name="label_daemon">Sieć</string>
+    <string name="status_wallet_loading">Ładowanie portfela …</string>
+    <string name="status_wallet_unloaded">Zapisano portfel</string>
+    <string name="status_wallet_unload_failed">Zapisywanie portfela nie powiodło się!</string>
+    <string name="status_wallet_connecting">Łączenie …</string>
+    <string name="status_wallet_connect_failed">Połączenie z Node nie powiodło się!\nSprawdź nazwę użytkownika/hasło</string>
+    <string name="status_wallet_connect_wrongversion">Wersja Node jest niekompatybilna - proszę zaktualizuj!</string>
+    <string name="status_wallet_node_invalid">Node jest nieprawidłowy!\nSpróbuj innego.</string>
+    <string name="status_wallet_connect_ioex">Nie można połączyć się z węzłem\nSpróbuj ponownie lub wybierz inny</string>
 </resources>
