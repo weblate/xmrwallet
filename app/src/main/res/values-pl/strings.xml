@@ -37,7 +37,33 @@
     <string name="info_send_xmrto_sent">%1$s zostało wysłane!</string>
     <string name="info_send_xmrto_query">Trwa zapytanie …</string>
     <string name="send_available_btc">Balans: %1$s XMR (~%2$s %3$s)</string>
-    <string name="info_paymentid_integrated">✔ ID płatności zostało dodane!</string>
+    <string name="info_paymentid_integrated">✔ ID płatności zostało dodane</string>
     <string name="info_prepare_tx">Przygotowywanie transakcji</string>
     <string name="label_send_progress_xmrto_create">Tworzenie zlecenia</string>
+    <string name="label_send_progress_xmrto_query">Pobieranie zamówienia</string>
+    <string name="label_send_progress_create_tx">Przygotowywanie transakcji Monero</string>
+    <string name="label_send_progress_queryparms">Pobieranie parametrów</string>
+    <string name="label_generic_xmrto_error">BŁAD</string>
+    <string name="text_generic_xmrto_error">Kod: %1$d</string>
+    <string name="text_retry">Stuknij, aby ponowić</string>
+    <string name="text_noretry_monero">Teraz ugrzęźliśmy!</string>
+    <string name="text_noretry">Ups, %1$s wydaje się teraz niedostępne!</string>
+    <string name="text_send_btc_amount">%1$s %3$s = %2$s XMR</string>
+    <string name="text_send_btc_rate">(Kurs: %1$s %2$s/XMR)</string>
+    <string name="label_send_btc_xmrto_info">Odwiedź stronę %1$s, aby uzyskać wsparcie i śledzić status</string>
+    <string name="label_send_btc_xmrto_key_lb">Numer zlecenia\n%1$s</string>
+    <string name="label_send_btc_xmrto_key">Numer zlecenia %1$s</string>
+    <string name="label_send_btc_address">Docelowy adres %1$s</string>
+    <string name="label_send_btc_amount">Kwota</string>
+    <string name="label_send_txid">ID transakcji</string>
+    <string name="label_send_address">Adres docelowy</string>
+    <string name="label_send_notes">Notatki</string>
+    <string name="backup_progress">Trwa kopia zapasowa</string>
+    <string name="archive_progress">Trwa archiwizacja</string>
+    <string name="rename_progress">Trwa zmiana nazwy</string>
+    <string name="changepw_progress">Trwa zmiana hasła</string>
+    <string name="service_progress">Kończymy …\nTo może chwilę potrwać!</string>
+    <string name="backup_success">Kopia zapasowa wykonana pomyślnie</string>
+    <string name="backup_failed">Kopia zapasowa zakończyła się niepowodzeniem!</string>
+    <string name="delete_failed">Usuwanie się nie powiodło!</string>
 </resources>
