@@ -24,7 +24,7 @@
     <string name="label_send_done">Готово</string>
     <string name="label_receive_info_gen_qr_code">Натисніть для використання QR-коду</string>
     <string name="info_xmrto_enabled">Ви можете конвертувати XMR в інші монети, натисніть, щоб дізнатися більше.</string>
-    <string name="info_ledger_enabled">Доступний Ledger, натисніть для доп. інформації</string>
+    <string name="info_ledger_enabled">Доступний Ledger, натисніть для доп. інформації.</string>
     <string name="info_xmrto"><![CDATA[
         <b>Ви ввели %1$s адресу.</b><br/>
         <i>Надсилайте XMR, одержувач отримає %2$s, використовуючи сервіс <b>%3$s</b></i>
@@ -195,13 +195,13 @@
     <string name="tx_notes_hint">(необов\'язково)</string>
     <string name="tx_title">Детально</string>
     <string name="tx_pending">ОЧІКУВАННЯ</string>
-    <string name="tx_failed">ПОМИЛКА</string>
+    <string name="tx_failed">ПРОВАЛИВСЯ</string>
     <string name="receive_amount_hint">Сума</string>
     <string name="receive_cannot_open">Не вдалося відкрити гаманець!</string>
     <string name="receive_amount_too_big">Max. %1$s</string>
     <string name="receive_amount_negative">Min. 0</string>
     <string name="receive_amount_nan">Не числове значення XMR</string>
-    <string name="details_alert_message">Зараз будуть показані конфіденційні дані. Озирнись навколо!</string>
+    <string name="details_alert_message">Зараз будуть показані конфіденційні дані.\nОзирнись навколо!</string>
     <string name="details_alert_yes">Я в безпеці</string>
     <string name="details_alert_no">Поверніть мене назад!</string>
     <string name="details_title">Детальна інформація</string>
@@ -237,7 +237,7 @@
     <string name="send_address_resolve_openalias">Дозволи OpenAlias…</string>
     <string name="send_address_no_dnssec">OpenAlias без DNSSEC - адреса може бути підмінена</string>
     <string name="status_wallet_connect_wrongversion">Версія вузла несумісна - будь ласка обновіть!</string>
-    <string name="menu_info">Інформация</string>
+    <string name="menu_info">Покажи секрети!</string>
     <!--Changed to: Show Secrets!-->
     <string name="menu_streetmode">Вуличний Режим</string>
     <string name="info_nodes_enabled">Node-o-matiC включений, натисніть щоб отримати більше інформації.</string>
