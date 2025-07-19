@@ -223,7 +223,7 @@
     <string name="node_port_hint">Porta</string>
     <string name="node_user_hint">Nome de Usuário (Opcional)</string>
     <string name="node_pass_hint">Senha (Opcional)</string>
-    <string name="node_host_unresolved">Host não encontrado</string>
+    <string name="node_host_unresolved">Servidor não encontrado</string>
     <string name="node_host_empty">Nós precisamos disso!</string>
     <string name="node_port_numeric">Deve ser numérico</string>
     <string name="node_port_range">Deve ser entre 1–65535</string>
