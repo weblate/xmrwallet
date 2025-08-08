@@ -23,7 +23,7 @@
     <string name="label_send_success">Enviado com sucesso</string>
     <string name="label_send_done">Feito</string>
     <string name="label_receive_info_gen_qr_code">Toca para código QR</string>
-    <string name="info_xmrto_enabled">Pagamento em BTC activado, toca para mais informação.</string>
+    <string name="info_xmrto_enabled">Pode converter XMR para outras moedas, toque para ler mais sobre.</string>
     <string name="info_ledger_enabled">Ledger activa, toca para mais informação.</string>
     <string name="info_xmrto"><![CDATA[
         <b>Introduziu um endereço %1$s.</b><br/>
@@ -97,7 +97,7 @@
     <string name="label_wallet_receive">Receber</string>
     <string name="label_wallet_send">Enviar</string>
     <string name="xmr_unconfirmed_amount">+ %1$s %2$s não confirmado</string>
-    <string name="service_description">Serviço monerujo</string>
+    <string name="service_description">Carteira está aberta</string>
     <string name="status_synced">Sincronizado:</string>
     <string name="status_remaining">Blocos remanescentes</string>
     <string name="status_syncing">A examinar:</string>
@@ -243,7 +243,7 @@
     <string name="node_height">Ultimo bloco actualizado: %1$s</string>
     <string name="label_nodes">Nós</string>
     <string name="node_name_hint">Nome do Nó (Opcional)</string>
-    <string name="node_address_hint">Hostname</string>
+    <string name="node_address_hint">Endereço ou IP do servidor</string>
     <string name="node_port_hint">Port</string>
     <string name="node_user_hint">Nome de usuario (Optional)</string>
     <string name="node_pass_hint">Palavra passe (Optional)</string>
@@ -278,4 +278,98 @@
     <string name="bad_ledger_seed">Semente do Ledger invalida!</string>
     <string name="prompt_ledger_seed_warn">Introduzir a semente do Ledger aqui comporta um elevado risco de segurança!</string>
     <string name="label_restoreheight">Restaurar de Altura</string>
+    <string name="menu_delete">Apagar</string>
+    <string name="menu_back">Voltar</string>
+    <string name="menu_close">Fechar</string>
+    <string name="menu_cancel">Cancelar</string>
+    <string name="delete_failed">O apagamento falhou!</string>
+    <string name="send_qr_hint">Escanear</string>
+    <string name="copy_receive_address">Copiar endereço de recebimento</string>
+    <string name="paste_give_address">Colar endereço de destino</string>
+    <string name="delete_alert_message">Esta carteira será apagada. Os seus fundos desaparecerão para sempre, a não ser que tenha a sua semente guardada ou um backup funcional para recuperá-la.</string>
+    <string name="menu_streetmode">Modo Rua</string>
+    <string name="node_use_ssl">Utilizar SSL</string>
+    <string name="toast_ledger_start_app">Iniciar o App Monero em %1$s</string>
+    <string name="menu_rescan">Reescanear!</string>
+    <string name="onboarding_agree">Percebi!</string>
+    <string name="onboarding_button_next">Próximo</string>
+    <string name="onboarding_button_ready">Estou pronto!</string>
+    <string name="onboarding_welcome_title">Bem-vindo ao Monerujo!</string>
+    <string name="onboarding_welcome_information">Esta app permite que crie e use carteiras Monero. Poderá guardar os seus queridos moneroj aqui.</string>
+    <string name="onboarding_seed_title">Mantenha a sua semente segura</string>
+    <string name="onboarding_seed_information">A semente dá acesso total a qualquer pessoa que a tenha. Se perdê-la, não conseguiremos ajudar-lhe a recuperá-la e perderá os seus amados moneroj.</string>
+    <string name="onboarding_xmrto_title">Envie Cripto</string>
+    <string name="onboarding_xmrto_information">O monerujo tem apoio à serviços de troca de moedas integrado. Pode usar XMR para pagar em várias outras criptomoedas.</string>
+    <string name="onboarding_nodes_title">Nós, do seu jeito</string>
+    <string name="onboarding_nodes_information">Os nós conectam-lo à rede Monero. Escolha entre nós públicos ou seja completamente cypherpunk e utilize o seu próprio nó.</string>
+    <string name="onboarding_fpsend_title">Envie usando a digital</string>
+    <string name="onboarding_fpsend_information">Agora é possível enviar XMR apenas com a sua digital, caso tenha-o ativado. Para solicitar a palavra-passe, basta desativar o acesso à impressão digital.</string>
+    <string name="menu_daynight">Modo Escuro</string>
+    <string name="gunther_says">Não há nada aqui\nPor favor, crie ou restaure uma carteira</string>
+    <string name="menu_default_nodes">Restaurar nós padrão</string>
+    <string name="toast_default_nodes">Restauração em andamento…</string>
+    <string name="node_updated_now">Último Bloco: %1$d segundos atrás</string>
+    <string name="node_updated_mins">Último Bloco: %1$d minutos atrás</string>
+    <string name="node_updated_hours">Último Bloco: %1$d horas atrás</string>
+    <string name="node_updated_days">Último Bloco: %1$d dias atrás</string>
+    <string name="shift_noquote">Não foi possível obter a cotação</string>
+    <string name="shift_checkamount">Verifique o valor e tente novamente</string>
+    <string name="info_xmrto_ambiguous"><![CDATA[
+        <b>Endereço ambíguo.</b><br/>
+        <i>Por favor, selecione o tipo acima.</i>
+    ]]></string>
+    <string name="info_xmrto_help"><![CDATA[
+        <b>Favor inserir ou escanear um endereço %1$s.</b><br/>
+        <i>Enviará XMR e o destinatário irá receber %2$s através do serviço <b>%3$s</b>.</i>
+    ]]></string>
+    <string name="info_xmrto_help_xmr"><![CDATA[
+        <b>Favor inserir ou escanear um endereço Monero.</b>
+    ]]></string>
+    <string name="subbaddress_title">Subendereços</string>
+    <string name="subbaddress_name_hint">Nome do Subendereço</string>
+    <string name="max_subaddress_warning">Muitos endereços não utilizados - use alguns antes de criar!</string>
+    <string name="max_account_warning">Muitas contas não utilizadas - use algumas para poder criar!</string>
+    <string name="subaddress_tx_label">Transações neste subendereço:</string>
+    <string name="subaddress_notx_label">Nenhuma transação neste subendereço ainda</string>
+    <string name="subaddress_select_label">Selecione um subendereço</string>
+    <string name="subaddress_details_hint">Toque e segure para mais pormenores</string>
+    <string name="subaddress_add">Adicionar Subendereço</string>
+    <string name="menu_restore">Importar carteira</string>
+    <string name="restore_failed">Importação falhou!</string>
+    <string name="menu_deletecache">Redefinir carteira!</string>
+    <string name="deletecache_alert_message">Esta carteira será redefinida, perdendo todos os dados fora-da-rede (como notas, nomes de contas e sub-endereços, chaves de transação privadas, ...)! Use somente se esta carteira estiver corrompida e não carrega!</string>
+    <string name="node_tor_error">O Tor é necessário</string>
+    <string name="node_waiting"> ESPERANDO PELO NÓ </string>
+    <string name="tor_enable_background">Permitir a Inicialização em Segundo Plano nas configurações do Orbot para usar o Tor!</string>
+    <string name="tor_noshift">%1$s não suporta Tor.\nDesative o Tor para trocar XMR.</string>
+    <string name="tor_enable">Ativar TOR</string>
+    <string name="label_seed_offset_encrypt">Criptografia da semente (EXPERIMENTAL)</string>
+    <string name="seed_offset_hint">Palavra-passe de Dedução da Semente (opcional)</string>
+    <string name="menu_settings">Configurações</string>
+    <string name="title_iface">Interface</string>
+    <string name="title_info">Informação</string>
+    <string name="setting_daynight">Dia / Noite</string>
+    <string name="setting_theme">Estilo</string>
+    <string name="message_qr_failed">Falha ao criar QR para compartilhamento!</string>
+    <string name="tx_locked">Valor de transação bloqueado até o bloco %1$d (em %2$d blocos ≈ %3$,.2f dias)</string>
+    <string name="label_streetmode">Modo Rua ativado\nSomente novas transações serão exibidas</string>
+    <string name="pocketchange_info">Para reduzir o tempo de espero em gasto repetitivo, o Monerujo pode criar troco em troca de taxas maiores. Ele tentara criar e manter pelo menos 6 moedas da quantidade selecionada.</string>
+    <string name="pocketchange_create_title">Criar Troco</string>
+    <string name="label_apply">APLICAR</string>
+    <string name="setting_lock">Bloquear Carteira em Segundo Plano</string>
+    <string name="menu_bluetooth">Conectar Sidekick</string>
+    <string name="bluetooth_select_label">Selecionar dispositivo Sidekick</string>
+    <string name="bluetooth_permissions">Permissões de Bluetooth são necessárias para conectar a sua carteira Sidekick!</string>
+    <string name="bluetooth_permissions_ok">OK</string>
+    <string name="bluetooth_permissions_settings">Configurações do App</string>
+    <string name="bluetooth_permissions_cancel">Cancelar</string>
+    <string name="sidekick_pin">PIN: %1$s</string>
+    <string name="sidekick_not_connected">[não conectado]</string>
+    <string name="sidekick_confirm_tx">Confirmar Transação</string>
+    <string name="sidekick_network_warning">A rede está ativa - isto é um risco à segurança. É recomendado ativar o modo avião e reiniciar a app com somente o Bluetooth ativado!</string>
+    <string name="open_wallet_sidekick_missing">Por favor conecte o dispositivo Sidekick</string>
+    <string name="fab_restore_sidekick">Restaurar do Sidekick</string>
+    <string name="sidekick_connected">Sidekick Conectado</string>
+    <string name="setting_stickyfiat">Fiat Persistente</string>
+    <string name="setting_stickyfiat_summary">Lembrar da última moeda fiat usada</string>
 </resources>
