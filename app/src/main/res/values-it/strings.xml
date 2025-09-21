@@ -337,4 +337,6 @@
     <string name="restore_failed">Importazione fallita!</string>
     <string name="menu_deletecache">Resetta portafogli!</string>
     <string name="deletecache_alert_message"><![CDATA[Il reset del portafogli cancellerà tutte le informazioni locali (note, nomi di account & sottoindirizzi, chiavi di transazione private, …)! Procedi solo se il portafogli è corrotto e non si carica!]]></string>
+    <string name="menu_back">Indietro</string>
+    <string name="menu_close">Chiudi</string>
 </resources>
