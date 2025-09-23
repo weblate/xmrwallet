@@ -281,4 +281,7 @@
         </p>
         <p>I dettagli del pagamento saranno auto-inseriti. Controllali e procedi come per qualsiasi altra transazione.</p>
     ]]></string>
+    <string name="help_ok">Capito!</string>
+    <string name="help_nok">No, grazie</string>
+    <string name="help_getorbot">Scarica Orbot!</string>
 </resources>
