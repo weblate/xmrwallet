@@ -251,7 +251,7 @@
     <string name="node_height">آخر كتلة تم تحديثها: %1$s</string>
     <string name="label_nodes">العقد</string>
     <string name="node_name_hint">اسم العقدة (اختياري)</string>
-    <string name="node_address_hint">اسم المضيف</string>
+    <string name="node_address_hint">اسم المضيف أو IP</string>
     <string name="node_port_hint">ميناء</string>
     <string name="node_user_hint">اسم المستخدم (اختياري)</string>
     <string name="node_pass_hint">كلمة المرور (اختياري)</string>
@@ -357,4 +357,22 @@
     <string name="pocketchange_info">لتقليل وقت الانتظار عند الإنفاق المتكرر، يمكن لـ مونيروجو إنشاء عملات فكه احتياطية على حساب رسوم اعلى. سيحاول إنشاء والحفاظ على ما لا يقل عن 6 عملات من القيمة المحددة.</string>
     <string name="pocketchange_create_title">أنشئ تغييرا</string>
     <string name="label_apply">تطبيق</string>
+    <string name="send_qr_hint">افحص</string>
+    <string name="node_use_ssl">استخدم SSL</string>
+    <string name="setting_lock">اقفل المحفظة في الخلفية</string>
+    <string name="menu_bluetooth">اتصل Sidekick</string>
+    <string name="bluetooth_select_label">حدد جهاز Sidekick</string>
+    <string name="bluetooth_permissions">يُطلب إذن البلوتوث لتوصيل محفظة Sidekick الخاصة بك!</string>
+    <string name="bluetooth_permissions_ok">حسنًا</string>
+    <string name="bluetooth_permissions_settings">إعدادات التطبيق</string>
+    <string name="bluetooth_permissions_cancel">ألغِ</string>
+    <string name="sidekick_pin">رمز PIN: %1$s</string>
+    <string name="sidekick_not_connected">[غير متصل]</string>
+    <string name="sidekick_confirm_tx">تأكيد المعاملة</string>
+    <string name="sidekick_network_warning">الشبكة قيد التشغيل - وهذا يمثل خطرًا أمنيًا. يُوصى بتشغيل وضع الطيران وإعادة تشغيل التطبيق مع تفعيل البلوتوث فقط!</string>
+    <string name="open_wallet_sidekick_missing">يُرجى توصيل جهاز Sidekick</string>
+    <string name="fab_restore_sidekick">استعد من Sidekick</string>
+    <string name="sidekick_connected">Sidekick متصل</string>
+    <string name="setting_stickyfiat">عملة ورقية لاصقة</string>
+    <string name="setting_stickyfiat_summary">تذكر آخر عملة ورقية مستخدمة</string>
 </resources>
