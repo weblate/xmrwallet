@@ -1,3 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="wallet_activity_name">Dompet</string>
+    <string name="menu_about">Tentang</string>
+    <string name="menu_privacy">Kebijakan Privasi</string>
+    <string name="menu_share">Bagikan</string>
+    <string name="menu_help">Bantuan</string>
+    <string name="menu_receive">Terima</string>
+    <string name="menu_rename">Ubah nama</string>
+    <string name="menu_delete">Hapus</string>
+    <string name="menu_backup">Cadangkan</string>
+    <string name="menu_changepw">Ubah kata sandi</string>
+    <string name="menu_back">Kembali</string>
+    <string name="menu_close">Tutup</string>
+    <string name="menu_cancel">Batal</string>
+    <string name="password_weak">Lanjutkan mengetik …</string>
+    <string name="password_fair">Hmm…</string>
+    <string name="password_good">Ayolah, kamu bisa berbuat lebih baik!</string>
+    <string name="password_strong">Sedang menuju ke sana…</string>
+    <string name="password_very_strong">Yeay, gaya hekel abis!</string>
+    <string name="label_login_wallets">Dompet</string>
+    <string name="label_credits">Kredit</string>
+    <string name="label_ok">Oke</string>
+    <string name="label_cancel">Batal</string>
+    <string name="label_close">Tutup</string>
+    <string name="label_wallet_advanced_details">Informasi selengkapnya</string>
+    <string name="label_send_success">Berhasil terkirim</string>
+    <string name="label_send_done">Selesai</string>
+    <string name="menu_settings">Pengaturan</string>
 </resources>
