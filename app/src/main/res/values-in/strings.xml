@@ -27,4 +27,179 @@
     <string name="label_send_success">Berhasil terkirim</string>
     <string name="label_send_done">Selesai</string>
     <string name="menu_settings">Pengaturan</string>
+    <string name="label_receive_info_gen_qr_code">Sentuh untuk Kode QR</string>
+    <string name="info_xmrto_enabled">Anda dapat mengkonversi XMR ke koin lain, ketuk untuk membaca selengkapnya.</string>
+    <string name="info_ledger_enabled">Ledger diaktifkan, ketuk untuk info selengkapnya.</string>
+    <string name="info_xmrto"><![CDATA[
+        <b>Anda memasukkan alamat %1$s.</b><br/>
+        <i>Anda akan mengirim XMR dan alamat ini akan menerima %2$s menggunakan layanan <b>%3$s</b>.</i>
+    ]]></string>
+    <string name="info_send_xmrto_success_order_label">Pesanan %1$s</string>
+    <string name="info_send_xmrto_success_btc">%1$s %2$s</string>
+    <string name="info_send_xmrto_paid">Konfirmasi Tertunda</string>
+    <string name="info_send_xmrto_unpaid">Pembayaran Tertunda</string>
+    <string name="info_send_xmrto_error">Galat %1$s (%2$s)</string>
+    <string name="info_send_xmrto_sent">%1$s Terkirim!</string>
+    <string name="info_send_xmrto_query">Memproses Permintaan…</string>
+    <string name="info_send_xmrto_parms"><![CDATA[
+        <b>Anda dapat mengirim %1$s &#8212; %2$s %4$s</b>.<br/>
+        <i><b>%5$s</b> memberikan Anda nilai tukar sebesar <b>%3$s %4$s/XMR</b> <u>saat ini</u></i>.
+    ]]></string>
+    <string name="send_available_btc">Saldo: %1$s XMR (~%2$s %3$s)</string>
+    <string name="info_paymentid_integrated">✔ ID Pembayaran Terintegrasi</string>
+    <string name="info_prepare_tx">Menyiapkan transaksi Anda</string>
+    <string name="label_send_progress_xmrto_create">Membuat Pesanan</string>
+    <string name="label_send_progress_xmrto_query">Memproses Permintaan Pesanan</string>
+    <string name="label_send_progress_create_tx">Menyiapkan Transaksi Monero</string>
+    <string name="label_send_progress_queryparms">Memproses Permintaan Parameter</string>
+    <string name="label_generic_xmrto_error">GALAT</string>
+    <string name="text_generic_xmrto_error">Kode: %1$d</string>
+    <string name="text_retry">Sentuh untuk mencoba lagi</string>
+    <string name="text_noretry_monero">Sekarang kita terhenti di sini!</string>
+    <string name="text_noretry">%1$s tampaknya tidak tersedia saat ini!</string>
+    <string name="text_send_btc_amount">%1$s %3$s = %2$s XMR</string>
+    <string name="text_send_btc_rate">(Nilai tukar: %1$s %2$s/XMR)</string>
+    <string name="label_send_btc_xmrto_info">Kunjungi situs web %1$s untuk dukungan &amp; pelacakan</string>
+    <string name="label_send_btc_xmrto_key_lb">Nomor pesanan\n%1$s</string>
+    <string name="label_send_btc_xmrto_key">Nomor pesanan %1$s</string>
+    <string name="label_send_btc_address">Alamat Tujuan %1$s</string>
+    <string name="label_send_btc_amount">Jumlah</string>
+    <string name="label_send_txid">ID Transaksi</string>
+    <string name="label_send_address">Alamat Tujuan</string>
+    <string name="label_send_notes">Catatan</string>
+    <string name="backup_progress">Pencadangan sedang berlangsung</string>
+    <string name="archive_progress">Pengarsipan sedang berlangsung</string>
+    <string name="rename_progress">Penggantian nama sedang berlangsung</string>
+    <string name="changepw_progress">Perubahan kata sandi sedang berlangsung</string>
+    <string name="service_progress">Menyelesaikan proses…\nIni mungkin memerlukan waktu beberapa saat!</string>
+    <string name="backup_success">Pencadangan berhasil</string>
+    <string name="backup_failed">Pencadangan gagal!</string>
+    <string name="delete_failed">Penghapusan gagal!</string>
+    <string name="rename_failed">Penggantian nama gagal!</string>
+    <string name="changepw_failed">Perubahan kata sandi gagal!</string>
+    <string name="changepw_success">Kata sandi berhasil diubah</string>
+    <string name="label_daemon">Jaringan</string>
+    <string name="status_wallet_loading">Memuat Dompet…</string>
+    <string name="status_wallet_unloaded">Dompet disimpan</string>
+    <string name="status_wallet_unload_failed">Gagal menyimpan dompet!</string>
+    <string name="status_wallet_connecting">Menghubungkan…</string>
+    <string name="status_wallet_connect_failed">Koneksi node gagal!\nPeriksa nama pengguna/kata sandi</string>
+    <string name="status_wallet_connect_wrongversion">Versi node tidak kompatibel - silakan lakukan peningkatan!</string>
+    <string name="status_wallet_node_invalid">Node tidak valid!\nCoba yang lain.</string>
+    <string name="status_wallet_connect_ioex">Tidak dapat menjangkau node!\nCoba lagi atau gunakan yang lain.</string>
+    <string name="status_wallet_disconnected">Terputus</string>
+    <string name="status_transaction_failed">Transaksi gagal: %1$s</string>
+    <string name="send_xmrto_timeout">Kamu menunggu terlalu lama, teman!</string>
+    <string name="service_busy">Saya masih sibuk dengan dompet terakhir Anda…</string>
+    <string name="prompt_rename">Ganti nama %1$s</string>
+    <string name="prompt_changepw">Frasa Sandi Baru untuk %1$s</string>
+    <string name="prompt_changepwB">Ulangi Frasa Sandi untuk %1$s</string>
+    <string name="prompt_password">Kata Sandi untuk %1$s</string>
+    <string name="prompt_fingerprint_auth">Anda juga dapat membuka dompet menggunakan sidik jari.\nSilakan sentuh sensor.</string>
+    <string name="prompt_open_wallet">Membuka dompet…</string>
+    <string name="bad_fingerprint">Sidik jari tidak dikenali. Coba lagi.</string>
+    <string name="bad_password">Kata sandi salah!</string>
+    <string name="bad_saved_password">Kata sandi yang tersimpan salah.\nSilakan masukkan kata sandi secara manual.</string>
+    <string name="bad_wallet">Dompet tidak ada!</string>
+    <string name="prompt_daemon_missing">Node harus diatur!</string>
+    <string name="prompt_wrong_net">Dompet tidak cocok dengan jaringan yang dipilih</string>
+    <string name="label_watchonly">(Hanya Pantau)</string>
+    <string name="label_wallet_receive">Terima</string>
+    <string name="label_wallet_send">Kirim</string>
+    <string name="xmr_unconfirmed_amount">+ %1$s %2$s belum dikonfirmasi</string>
+    <string name="service_description">Dompet terbuka</string>
+    <string name="status_synced">Tersinkronisasi:</string>
+    <string name="status_remaining">Blok tersisa</string>
+    <string name="status_syncing">Menyinkronkan:</string>
+    <string name="message_camera_not_permitted">Tanpa kamera = Tidak bisa memindai QR!</string>
+    <string name="label_copy_viewkey">Kunci Tampilan</string>
+    <string name="label_copy_address">Alamat Publik</string>
+    <string name="label_copy_xmrtokey">Kunci</string>
+    <string name="message_copy_viewkey">Kunci Tampilan disalin ke papan klip!</string>
+    <string name="message_copy_xmrtokey">Kunci disalin ke papan klip!</string>
+    <string name="message_copy_address">Alamat Dompet disalin ke papan klip!</string>
+    <string name="message_copy_txid">ID Transaksi disalin ke papan klip!</string>
+    <string name="message_nocopy">Penyalinan dinonaktifkan karena alasan keamanan!</string>
+    <string name="message_exchange_failed">Tidak dapat mengambil nilai tukar!\nGunakan XMR/XMR atau coba lagi</string>
+    <string name="generate_title">Buat Dompet</string>
+    <string name="generate_name_hint">Nama Dompet</string>
+    <string name="generate_password_hint">Frasa Sandi Dompet</string>
+    <string name="generate_fingerprint_hint">Izinkan membuka dompet menggunakan sidik jari</string>
+    <string name="generate_fingerprint_warn"><![CDATA[
+        <strong>Autentikasi Sidik Jari</strong>
+        <p>Dengan autentikasi sidik jari diaktifkan, Anda dapat melihat saldo dompet dan menerima dana
+        tanpa memasukkan kata sandi.</p>
+        <p>Namun untuk keamanan tambahan, Monerujo tetap akan meminta Anda memasukkan kata sandi saat
+        melihat detail dompet atau mengirim dana.</p>
+        <strong>Peringatan Keamanan</strong>
+        <p>Monerujo ingin mengingatkan bahwa siapa pun yang bisa mendapatkan sidik jari Anda
+        dapat mengintip saldo dompet Anda.</p>
+        <p>Misalnya, pengguna jahat di sekitar Anda bisa membuka dompet saat Anda tertidur.</p>
+        <strong>Apakah Anda yakin ingin mengaktifkan fungsi ini?</strong>
+    ]]></string>
+    <string name="generate_bad_passwordB">Frasa sandi tidak cocok</string>
+    <string name="generate_empty_passwordB">Frasa sandi tidak boleh kosong</string>
+    <string name="generate_buttonGenerate">Buatkan dompet untuk saya sekarang juga!</string>
+    <string name="generate_button_accept">Saya telah mencatat seed mnemonic</string>
+    <string name="generate_wallet_name">Beri saya sebuah nama!</string>
+    <string name="generate_wallet_exists">Dompet sudah ada!</string>
+    <string name="generate_wallet_dot">Tidak boleh diawali dengan .</string>
+    <string name="generate_wallet_creating">Membuat dompet</string>
+    <string name="generate_wallet_created">Dompet berhasil dibuat</string>
+    <string name="generate_restoreheight_error">Masukkan Nomor atau Tanggal (YYYY-MM-DD)</string>
+    <string name="generate_wallet_type_key">Kunci</string>
+    <string name="generate_wallet_type_new">Baru</string>
+    <string name="generate_wallet_type_seed">Seed</string>
+    <string name="generate_wallet_type_view">Tampilan</string>
+    <string name="generate_address_hint">Alamat Publik</string>
+    <string name="generate_viewkey_hint">Kunci Tampilan</string>
+    <string name="generate_spendkey_hint">Kunci Pengeluaran</string>
+    <string name="generate_mnemonic_hint">Seed Mnemonik 25 Kata</string>
+    <string name="generate_restoreheight_hint">Tinggi Pemulihan atau Tanggal (YYYY-MM-DD)</string>
+    <string name="generate_address_label">Alamat Publik</string>
+    <string name="generate_viewkey_label">Kunci Tampilan</string>
+    <string name="generate_spendkey_label">Kunci Pengeluaran</string>
+    <string name="generate_mnemonic_label">Seed Mnemonik</string>
+    <string name="generate_crazypass_label">Kata Sandi Pemulihan File Dompet</string>
+    <string name="generate_check_key">Masukkan Kunci yang Valid</string>
+    <string name="generate_check_address">‘Masukkan Alamat yang Valid</string>
+    <string name="generate_check_mnemonic">Masukkan seed 25 kata Anda</string>
+    <string name="send_notes_hint">Catatan Pribadi (opsional)</string>
+    <string name="send_generate_paymentid_hint">Hasilkan</string>
+    <string name="send_qr_hint">Pindai</string>
+    <string name="send_send_label">Kirim Monero saya</string>
+    <string name="send_send_timed_label">Kirim Monero saya (%1$s)</string>
+    <string name="send_qr_invalid">Bukan Kode QR</string>
+    <string name="send_qr_address_invalid">Bukan kode QR pembayaran yang valid</string>
+    <string name="send_address_invalid">Alamat tidak valid</string>
+    <string name="send_address_not_openalias">Alamat OpenAlias tidak tersedia</string>
+    <string name="send_address_openalias">OpenAlias aman ✔</string>
+    <string name="send_address_resolve_openalias">Menyelesaikan OpenAlias…</string>
+    <string name="send_address_no_dnssec">OpenAlias tanpa DNSSEC - alamat mungkin dipalsukan</string>
+    <string name="send_title">Kirim</string>
+    <string name="send_available">Saldo: %1$s XMR</string>
+    <string name="send_address_title">Alamat</string>
+    <string name="send_amount_title">Jumlah</string>
+    <string name="send_confirm_title">Konfirmasi</string>
+    <string name="send_success_title">Selesai</string>
+    <string name="send_amount_label">Jumlah</string>
+    <string name="send_fee_btc_label">Biaya (XMR)</string>
+    <string name="send_fee_label">Biaya</string>
+    <string name="send_total_btc_label">Total (XMR)</string>
+    <string name="send_fee">+%1$s Biaya</string>
+    <string name="send_create_tx_error_title">Kesalahan Membuat Transaksi</string>
+    <string name="tx_list_fee">Biaya %1$s</string>
+    <string name="tx_list_failed_text">gagal</string>
+    <string name="tx_timestamp">Cap Waktu</string>
+    <string name="tx_id">ID TX</string>
+    <string name="tx_key">Kunci TX</string>
+    <string name="tx_destination">Tujuan</string>
+    <string name="tx_paymentId">ID Pembayaran</string>
+    <string name="tx_blockheight">Blok</string>
+    <string name="tx_amount">Jumlah</string>
+    <string name="tx_fee">Biaya</string>
+    <string name="tx_transfers">Transfer</string>
+    <string name="tx_notes">Catatan</string>
+    <string name="tx_notes_hint">(opsional)</string>
+    <string name="tx_title">Detail Transaksi</string>
 </resources>
