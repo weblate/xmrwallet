@@ -275,4 +275,5 @@
     <string name="bad_ledger_seed">Llavor de Ledger no vàlida!</string>
     <string name="prompt_ledger_seed_warn">Introduir la vostra llavor del Ledger aquí té un elevat risc de seguretat!</string>
     <string name="label_restoreheight">Restablir Alçada</string>
+    <string name="gunther_says">No hi ha res aquí\nSi us plau, crea o restaurar un portamonedes</string>
 </resources>
