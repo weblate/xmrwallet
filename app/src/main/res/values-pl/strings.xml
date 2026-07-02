@@ -191,4 +191,105 @@
     <string name="details_alert_yes">Jestem bezpieczny</string>
     <string name="details_alert_no">Weź mnie z powrotem!</string>
     <string name="details_title">Szczególy</string>
+    <string name="info_xmrto"><![CDATA[
+        <b>Wprowadziłeś adres %1$s.</b><br/>
+        <i>Wyślesz XMR, a na ten adres wpłynie %2$s przy użyciu usługi <b>%3$s</b>.</i>
+    ]]></string>
+    <string name="info_send_xmrto_parms"><![CDATA[
+        <b>Możesz wysłać %1$s &#8212; %2$s %4$s</b>.<br/>
+        <i><u>W tym momencie</u> usługa <b>%5$s</b> oferuje kurs wymiany na poziomie <b>%3$s %4$s/XMR</b></i>.
+    ]]></string>
+    <string name="generate_fingerprint_warn"><![CDATA[
+        <strong>Uwierzytelnianie odciskiem palca</strong>
+        <p>Gdy uwierzytelnianie odciskiem palca jest włączone, możesz sprawdzać saldo portfela i odbierać środki
+        bez wpisywania hasła.</p>
+        <p>Jednak dla dodatkowego bezpieczeństwa Monerujo nadal będzie wymagać podania hasła przy
+        przeglądaniu szczegółów portfela lub wysyłaniu środków.</p>
+        <strong>Ostrzeżenie dotyczące bezpieczeństwa</strong>
+        <p>Na koniec Monerujo przypomina, że każdy, kto uzyska Twój odcisk palca, będzie
+        w stanie podejrzeć saldo Twojego portfela.</p>
+        <p>Na przykład złośliwy użytkownik w Twoim otoczeniu może otworzyć Twój portfel, gdy śpisz.</p>
+        <strong>Czy na pewno chcesz włączyć tę funkcję?</strong>
+    ]]></string>
+    <string name="send_address_resolve_openalias">Rozpoznawanie OpenAlias…</string>
+    <string name="send_address_no_dnssec">OpenAlias bez DNSSEC – adres mógł zostać sfałszowany</string>
+    <string name="send_create_tx_error_title">Błąd tworzenia transakcji</string>
+    <string name="paste_give_address">Wklej podany adres</string>
+    <string name="details_alert_message">Zaraz wyświetlą się poufne dane.\nUpewnij się, że nikt nie patrzy Ci przez ramię!</string>
+    <string name="delete_alert_message">Ten portfel zostanie usunięty. Twoje środki zostaną bezpowrotnie utracone, chyba że posiadasz swój seed (frazę odzyskiwania) lub działającą kopię zapasową, aby go przywrócić.</string>
+    <string name="delete_alert_yes">Tak, zrób to!</string>
+    <string name="delete_alert_no">Nie, dzięki!</string>
+    <string name="fab_create_new">Utwórz nowy portfel</string>
+    <string name="fab_restore_viewonly">Przywróć portfel tylko do odczytu</string>
+    <string name="fab_restore_key">Przywróć portfel z kluczy prywatnych</string>
+    <string name="fab_restore_seed">Przywróć portfel z 25-wyrazowego seeda</string>
+    <string name="accounts_drawer_new">Utwórz konto</string>
+    <string name="accounts_new">Dodano nowe konto #%1$d</string>
+    <string name="tx_account">Konto #</string>
+    <string name="send_sweepall">Wyślij wszystkie potwierdzone środki z tego konta!</string>
+    <string name="tx_subaddress">Podadres</string>
+    <string name="generate_address_label_sub">Publiczny podadres #%1$d: %2$s</string>
+    <string name="menu_language">Język</string>
+    <string name="language_system_default">Użyj języka systemowego</string>
+    <string name="fab_restore_ledger">Przywróć z Ledger Nano</string>
+    <string name="progress_ledger_progress">Komunikowanie się z Ledger</string>
+    <string name="progress_ledger_confirm">Wymagane potwierdzenie na urządzeniu Ledger!</string>
+    <string name="progress_ledger_lookahead">Pobieranie podadresów</string>
+    <string name="progress_ledger_verify">Weryfikacja kluczy</string>
+    <string name="progress_ledger_opentx">Robię szalone obliczenia</string>
+    <string name="progress_ledger_mlsag">Haszowanie danych</string>
+    <string name="open_wallet_ledger_missing">Proszę (ponownie) podłączyć urządzenie Ledger</string>
+    <string name="accounts_progress_new">Tworzenie konta</string>
+    <string name="toast_ledger_attached">Podłączono %1$s</string>
+    <string name="toast_ledger_detached">Odłączono %1$s</string>
+    <string name="menu_info">Pokaż sekrety!</string>
+    <string name="menu_streetmode">Tryb uliczny</string>
+    <string name="info_nodes_enabled">Node-o-matiC włączony, dotknij, aby uzyskać więcej informacji.</string>
+    <string name="node_height">Ostatni blok zaktualizowany: %1$s</string>
+    <string name="label_nodes">Węzły</string>
+    <string name="node_name_hint">Nazwa węzła (opcjonalnie)</string>
+    <string name="node_address_hint">Nazwa hosta lub IP</string>
+    <string name="node_port_hint">Port</string>
+    <string name="node_user_hint">Nazwa użytkownika (opcjonalnie)</string>
+    <string name="node_pass_hint">Hasło (opcjonalnie)</string>
+    <string name="node_host_unresolved">Nie można rozwiązać nazwy hosta</string>
+    <string name="node_host_empty">Potrzebujemy tego!</string>
+    <string name="node_port_numeric">Musi być wartością numeryczną</string>
+    <string name="node_port_range">Musi być w przedziale 1–65535</string>
+    <string name="node_fab_add">Dodaj węzeł</string>
+    <string name="node_refresh_hint">Dotknij, aby odświeżyć!</string>
+    <string name="node_test_error">CONNECTION ERROR %1$d</string>
+    <string name="node_general_error">BŁĄD POŁĄCZENIA</string>
+    <string name="node_auth_error">BŁĄD UWIERZYTELNIANIA</string>
+    <string name="node_result_label">Wynik testu:</string>
+    <string name="node_result">Wysokość: %1$s (v%2$d), Ping: %3$.0fms, IP: %4$s</string>
+    <string name="node_testing">Testowanie IP: %1$s …</string>
+    <string name="node_refresh_wait">Proszę czekać na zakończenie skanowania</string>
+    <string name="node_create_hint">Dotknij, aby wybrać lub dodać węzły</string>
+    <string name="node_pull_hint">Dodaj węzły ręcznie lub przeciągnij w dół, aby skanować</string>
+    <string name="node_scanning">Skanowanie sieci…</string>
+    <string name="node_nobookmark">Automatycznie dodano do zakładek %1$d najlepszych węzłów</string>
+    <string name="node_use_ssl">Użyj SSL</string>
+    <string name="label_test">Test</string>
+    <string name="send_address_hint">Odbiorca</string>
+    <string name="street_sweep_amount">WSZYSTKO!</string>
+    <string name="menu_ledger_seed">Konwertuj seed z Ledger</string>
+    <string name="prompt_ledger_seed">Słowa seed z Ledger</string>
+    <string name="prompt_ledger_phrase">Hasło Ledger (zaawansowane)</string>
+    <string name="bad_ledger_seed">Nieprawidłowy seed z Ledger!</string>
+    <string name="prompt_ledger_seed_warn">Wprowadzanie tutaj seeda z Ledger stanowi poważne ryzyko dla bezpieczeństwa!</string>
+    <string name="label_restoreheight">Wysokość przywracania</string>
+    <string name="toast_ledger_start_app">Uruchom aplikację Monero na %1$s</string>
+    <string name="menu_rescan">Przeskanuj ponownie!</string>
+    <string name="onboarding_agree">Rozumiem!</string>
+    <string name="onboarding_button_next">Dalej</string>
+    <string name="onboarding_button_ready">Gotowy!</string>
+    <string name="onboarding_welcome_title">Witaj w Monerujo!</string>
+    <string name="onboarding_welcome_information">Ta aplikacja pozwala na tworzenie i używanie portfeli Monero. Możesz w nich przechowywać swoje słodkie moneroj.</string>
+    <string name="onboarding_seed_title">Chroń swój seed</string>
+    <string name="onboarding_seed_information">Seed zapewnia pełny dostęp każdemu, kto go posiada. Jeśli go zgubisz, nie będziemy mogli pomóc Ci go odzyskać i stracisz swoje ukochane moneroj.</string>
+    <string name="onboarding_xmrto_title">Wyślij kryptowalutę</string>
+    <string name="onboarding_xmrto_information">Monerujo ma wbudowaną obsługę giełd. Możesz używać XMR do płatności w kilku innych kryptowalutach.</string>
+    <string name="onboarding_nodes_title">Węzły po Twojemu</string>
+    <string name="onboarding_nodes_information">Węzły łączą Cię z siecią Monero. Wybierz publiczne węzły lub przejdź w tryb pełnego cypherpunka, korzystając z własnego.</string>
 </resources>
